@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+nav .navLinks ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .navLinks ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    
+}
+li{
+    list-style: none;
+}
+.navBtn{
+    background: none;
+    border-radius: 4px;
+    padding: 0.7rem 1rem;
+    border: 1.5px solid #aaaaaa;
+}
+.homeSection{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.homeSection .leftSide{
+    width: 531px;
+}
+.homeSection .rightSide{
+    width: 600px;
+}
+.homeSection .leftSide h1{
+    font-size: 60px;
+}
+.homeSection .leftSide p{
+    font-size: 20px;
+}
+.homeSection .leftSide button{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.logos{
+    margin-top: 3rem;
+}
+.logos img{
+    width: 100%;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cards .card1,.card2{
+    width: 600px;
+    height: 310px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.cards .card1,.card2{
+    font-size: 30px;
+}
+.cards .card1 h1,.card2 h1{
+    margin: 3rem 1rem;
+}
+.learnMore{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 3rem 1rem;
+}
